@@ -6,6 +6,13 @@ body
 	font-size: 16px;
 	margin: 0px auto ;
 	max-width: 1024px;
+} 
+footer{
+	background:blue;
+	color: white;
+	font-size: 0.7em;
+	text-align: center;
+	width: 100%;
 }
 header{
 	border: 1px solid blue;
@@ -22,7 +29,19 @@ header nav ul li{
 	color: white;
 	background: blue;
 	border-radius: 5px;
+	box-shadow: -5px -5px 1px black;
 	margin: 0px 10px 0px 0px;
 	/*padding: 5px 10px;*/
 	width: 84px;
+}
+header nav ul li:hover{
+	background: gray;
+	color: orange;  
+}
+
+main article{
+	/*border: 1px solid tomato;*/
+	display: inline-block;
+	vertical-align: top;
+	width: 48%;
 }
