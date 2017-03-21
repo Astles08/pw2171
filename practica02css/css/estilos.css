@@ -1,0 +1,62 @@
+body{
+	font-size: 16px; /*1em*/
+	margin: 0 auto; /*centramos el body*/
+	max-width: 1078px; /*empresa-cliente*/
+	min-width: 1078px;
+}
+header input
+{
+	float:right;
+	margin-right: -200px;
+	margin-top: 8px;
+	position: relative;
+	/*static, absolute, fixed*/
+}
+header nav{
+	/*border: 1px solid red;*/
+	margin-left: 220px;
+	/*text-align: center;*/
+}
+header nav ul li{
+	border-bottom: 1px solid gray;	/*dashed(punteado)*/
+	color: gray;
+	display: inline-block;
+	font-size: 1.8em;
+	margin-right: 18px;
+	/*text-decoration: underline;*/
+}
+#primerseccion{
+	height: 318px;
+}
+#primerseccion article{
+	/*border: 1px solid red;*/
+	display:inline-block;
+	vertical-align: top;
+}
+#granthams{ /*Logo de la empresa*/
+	margin-top:20px;
+	margin-left: 20px
+}
+
+#paint {
+	float:right;
+}
+#secc01art01{
+	width: 50%;
+}
+#secc01art01 img{
+	width: 100%;
+}
+#secc01art02{
+	width: 20%;
+}
+
+
+
+
+
+
+
+
+
+
