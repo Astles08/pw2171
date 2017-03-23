@@ -1,0 +1,17 @@
+body{
+	font-size: 16px; /*1em*/
+	margin: 0 auto;
+	max-width: 1024px;
+}
+section{
+	display: inline-block;
+}
+#primeraseccion{
+	width: 65%;
+	border: 1px solid red;
+}
+
+#segundaseccion{
+	width: 30%;
+	border: 1px solid blue;
+}
