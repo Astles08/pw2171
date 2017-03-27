@@ -19,7 +19,6 @@ header nav ul li{
 	margin-right: 15px;
 	color: white;
 	font-weight: bold;
-
 }
 section{
 	display: inline-block;
@@ -76,7 +75,7 @@ section{
 	width: 97%;
 
 }
-#fondotit{
+.fondotit{
 	background: #F6661D;
 	border-radius: 12px;
 	padding: 7px 0px 7px 0px;
