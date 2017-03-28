@@ -66,7 +66,7 @@ section{
 #seccion1{
 	width: 20%;
 	background:#ECECEE;
-	padding: 0px 15px 15px 15px;
+	padding: 0px 15px 37px 15px;
 	margin-left: 2px;
 	margin-right: -4px;
 }
@@ -101,6 +101,7 @@ section{
 	background:white;
 	margin-left: -1px;
 	padding-right: 6.5px;
+	padding-bottom: 3px;
 }
 #s2a1{
 	text-align: center;
