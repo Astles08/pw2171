@@ -1,0 +1,37 @@
+body{
+	font-size: 16px; /*1em*/
+	margin: 0 auto;
+	max-width: 1024px;
+	min-width: 1024px;
+}
+header{
+	text-align: center;
+}
+header nav{
+	text-align: right;
+}
+
+section{
+	display: inline-block;
+	vertical-align: top;
+}
+
+#seccion1{
+	width: 38%;
+}
+
+#seccion2{
+	width: 60%;
+}
+#s2a1 img{
+	width: 70px;
+	height: 70px;
+}
+#s2a3 img{
+	width: 70px;
+	height: 70px;
+}
+.cubos,.usuario{
+	display: inline-block;
+	width: 23%;
+}
