@@ -25,4 +25,4 @@ function muestraPantallaPrincipal(){
 
 //La aplicacion ejecuta este evento cuando 
 //el archivo main.js se carga en memoria
-app.on('ready',muestraPantallaPrincipal
+app.on('ready',muestraPantallaPrincipal)
