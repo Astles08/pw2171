@@ -9,3 +9,16 @@ img{
 #txtNombre{
 	font-size: 2em;
 }
+main section{
+	vertical-align: top;
+	display: inline-block;
+	height: 768px;
+}
+#s1{
+	background: red;
+	width: 20%;
+}
+#s2{
+	background: blue;
+	width: 75%;
+}

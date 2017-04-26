@@ -20,7 +20,7 @@ function muestraPantallaPrincipal(){
 		protocol:'file',
 		slashes: true
 	}))
-	// PantallaPrincipal.openDevTools()
+	PantallaPrincipal.openDevTools()
 	PantallaPrincipal.show()
 }
 
