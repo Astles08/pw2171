@@ -10,8 +10,8 @@ function datosRandom(){
 	 	$("#txtNombre").html(data.results[0].name.title+" "+data.results[0].name.first+" "+data.results[0].name.last)
 	 	$("#imgFoto").attr("src",data.results[0].picture.large)
 	 	$("#txtGenero").html(data.results[0].gender)
-	 	$("#txtDireccion").html(data.results[0].location.street+", C.P. "+data.results[0].location.postcode+" "+data.results[0].location.city+", "+data.results[0].location.city+", "+data.results[0].location.gender);
-	 	$("#txtEmail").html(data.results[0].email)
+	 	$("#txtDireccion").html(data.results[0].location.street+", C.P. "+data.results[0].location.postcode+" "+data.results[0].location.city+", "+data.results[0].location.city+", "+data.results[0].location.gender+"<br>");
+	 	$("#txtEmail").html(data.results[0].email+"<br>")
 	 	$("txtUsuario").html("Usuario:<br>" + data.results[0].login.username+"<br>"
 	 										+ data.results[0].login.password+"<br>"
 	 										+ data.results[0].login.salt+"<br>"
